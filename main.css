@@ -1,0 +1,96 @@
+* {
+    border:0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body {
+    transform: none;
+    overflow-x: hidden;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color:rgba(0,0,0);
+    width: 100vw;
+    
+}
+
+
+
+.navbar {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    
+}
+
+
+
+.navbar ul li {
+    margin-top: 25px;
+    display: inline-block;
+    padding-right: 8rem;
+    list-style: none;
+    
+}
+
+.navbar ul li a {
+    color:#a57d27;
+    text-decoration: none;
+    font-family: 'Texturina', serif;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'Patua One', cursive;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.logo {
+    border-radius: 45%;
+    height:5rem;
+    margin-left: 2rem;
+
+}
+
+
+.container {
+
+
+    margin-left: 3rem;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    row-gap: 3rem;
+    column-gap: 12rem;
+     
+}
+
+
+.container input {
+    width: 35px;
+    border: 1px solid black;
+}
+
+.container a {
+    margin-top: 2rem;
+    width: 5rem;
+    height: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: rgba(0,0,0);
+    color:#a57d27;
+    cursor: pointer;
+}
+  
+.container img ~ h3 {
+    font-family: 'Unna', serif;
+}
+
+ label {
+    font-family: 'Unna', serif;
+
+
+}
+

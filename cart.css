@@ -1,0 +1,112 @@
+* {
+    border:0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body {
+    transform: none;
+    overflow-x: hidden;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color:rgba(0,0,0);
+    width: 100vw;
+    
+}
+
+
+
+.navbar {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    
+}
+
+
+
+.navbar ul li {
+    margin-top: 25px;
+    display: inline-block;
+    padding-right: 8rem;
+    list-style: none;
+    
+}
+
+.navbar ul li a {
+    color:#a57d27;
+    text-decoration: none;
+    font-family: 'Texturina', serif;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'Patua One', cursive;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.logo {
+    border-radius: 45%;
+    height:5rem;
+    margin-left: 2rem;
+
+}
+
+.cartcontainer {
+    margin:3rem  2rem 0rem 2rem;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 15px whitesmoke;
+}
+
+
+.specification {
+    display: grid;
+    margin-left: 4rem;
+    column-gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-family: 'Patua One', cursive;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.specification h2::after {
+    content: "";
+    background:rgb(184, 172, 10);
+    height: 2px;
+    display: block;
+
+}
+
+.details {
+    
+    margin-top: 2rem;
+    display: grid;
+    column-gap: 10rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.details img {
+    height: 100px;
+    width: 85px;
+    margin-left: 4rem;
+}
+
+.details input[type=number] {
+    width: 30px;
+    height: 20px;
+    margin-left: 2rem;
+    border: 1px solid black;
+    font-family: 'Patua One', cursive;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.details button {
+    height: 2rem;
+    width: 4rem;
+    font-family: 'Patua One', cursive;
+    font-family: 'Philosopher', sans-serif;
+    background-color: brown;
+}
+
+
